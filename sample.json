@@ -1,0 +1,76 @@
+{
+    "Dictionary Level 1": {
+        "Dictionary Level 2": {
+            "Dictionary Level 3": {
+                "Dictionary Level 4": {
+                    "Dictionary Level 5": {
+                        "Dictionary Level 6": {
+                            "Dictionary Level 7": {
+                                "Dictionary Level 8": {
+                                    "Dictionary Level 9": {
+                                        "Dictionary Level 10": "Value"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "Array Level 1": [
+        "Array Level 2",
+        [
+            "Array Level 3",
+            [
+                "Array Level 4",
+                [
+                    "Array Level 5",
+                    [
+                        "Array Level 6",
+                        [
+                            "Array Level 7",
+                            [
+                                "Array Level 8",
+                                [
+                                    "Array Level 9",
+                                    [
+                                        "Array Level 10"
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    "Mixed Level 1": [
+        "Array Level 2",
+        [
+            "Array Level 3"
+        ],
+        {
+            "Dictionary Level 3": [
+                "Array Level 4",
+                "Array Level 4",
+                {
+                    "Dictionary Level 5": [
+                        "Array Level 6",
+                        [
+                            "Array Level 7",
+                            {
+                                "Dictionary Level 8": [
+                                    "Array Level 9",
+                                    {
+                                        "Dictionary Level 10": "Value"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
