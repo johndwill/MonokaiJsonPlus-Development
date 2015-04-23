@@ -6,15 +6,18 @@ The default Sublime Monokai Theme extended by rules that color JSON beautifully 
 
 https://github.com/ColibriApps/MonokaiJsonPlus
 
+### Installation
+1. Run `npm install`
+2. Run `grunt` - This will generate the `Monokai JSON+.tmTheme` into the `dist/` folder.
+3. For testing, copy over the generated rule file to your Sublime Installation:
+    `cp dist/Monokai\ JSON+.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`
 
 ## Customization
 
 Take a look at the code/generateRules.py python script. It generates the JSON rules needed to color the multiple levels and all possible combinations of arrays, dictionaries and strings.
 
-1. You can customize the colors or add/remove levels.
-2. Run the python script: `python generateRules.py`
-3. Open your own Sublime Theme and remove all existing JSON rules (search for 'json')
-3. Copy the script output at the end of all other rules just before the `</array>`
+1. You can customize the colors or add/remove levels, take a look at the python script in `bin/generateRules.py`
+2. Run grunt again to generate the latest rule file.
 
 
 ## Contributing
@@ -27,7 +30,9 @@ Take a look at the code/generateRules.py python script. It generates the JSON ru
 
 
 ## History
- 
+
+### 2015-04-23
+- 1.0.1 Automated Build with Grunt
 ### 2015-04-16
 - 1.0.0 Initial Version
 
