@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "description": "package.json for grunt-xmlmin",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-shell": "^1.1.2",
+    "grunt-xmlmin": "^0.1.4"
+  }
+}
