@@ -14,7 +14,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: ['src/Monokai.tmTheme.begin', 'tmp/rules.xml', 'src/Monokai.tmTheme.end'],
-                dest: 'tmp/Monokai JSON+.tmTheme',
+                dest: 'tmp/Afterglow JSON+.tmTheme',
             },
         },
         xmlmin: { // Task
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
                     preserveComments: false
                 },
                 files: { // Dictionary of files
-                    'dist/Monokai JSON+.tmTheme': 'tmp/Monokai JSON+.tmTheme', // 'destination': 'source'
+                    'dist/Afterglow JSON+.tmTheme': 'tmp/Afterglow JSON+.tmTheme', // 'destination': 'source'
                 }
             }
         }

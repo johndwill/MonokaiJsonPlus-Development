@@ -4,16 +4,16 @@ from itertools import permutations
 
 # Define Colors for the 10 Levels
 colors = [
-    "#CC7833", # Level 1
-    "#FFC08C", # Level 2
-    "#E59859", # etc.
-    "#A75919",
-    "#803B01",
-    "#CC9933",
-    "#FFD98C",
-    "#E5B659",
-    "#A77819",
-    "#805601"
+    "#D39547", # Level 1
+    "#FFD6A3", # Level 2
+    "#F5BC73", # etc.
+    "#B57626",
+    "#D36B47",
+    "#D3AE47",
+    "#FFE7A3",
+    "#F5D373",
+    "#B59026",
+    "#8F6D0D"
 ]
 
 # defines the placeholder values
